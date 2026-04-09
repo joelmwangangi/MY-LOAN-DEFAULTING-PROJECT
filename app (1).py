@@ -298,7 +298,7 @@ my_history = [h for h in history if h['analyst'] == st.session_state.username]
 if page == "🏠 Dashboard":
     st.markdown(f"""
     <div class='main-header'>
-        <h1>🏦 LoanGuard AI — Dashboard</h1>
+        <h1>🏦 Loan Default Predictor — Dashboard</h1>
         <p>Welcome back, {st.session_state.user_info['full_name']} · {datetime.now().strftime('%A, %d %B %Y')}</p>
     </div>""", unsafe_allow_html=True)
 
