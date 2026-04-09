@@ -13,7 +13,7 @@ import io
 
 # ── Page Config ───────────────────────────────────────────────
 st.set_page_config(
-    page_title="LoanGuard AI — Credit Risk System",
+    page_title="Loan Default Predictor — Credit Risk System",
     page_icon="🏦",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -204,7 +204,7 @@ if not st.session_state.logged_in:
     with col_m:
         st.markdown("""
         <div class='main-header'>
-            <h1>🏦 LoanGuard AI</h1>
+            <h1>🏦 Loan Default Predictor</h1>
             <p>Credit Risk Assessment & Management System</p>
         </div>""", unsafe_allow_html=True)
 
