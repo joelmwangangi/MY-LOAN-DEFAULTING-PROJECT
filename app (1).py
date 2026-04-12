@@ -829,7 +829,7 @@ elif page == "⚙️ Model Info":
         st.markdown("### 🧠 Model Architecture")
         st.markdown("""
         <div class='card'>
-            <b>Algorithm:</b> Feedforward Neural Network<br><br>
+            <b>Model:</b> Feedforward Neural Network<br><br>
             <b>Training Dataset:</b> 255,347 borrower records<br>
             <b>Features Used:</b> 24 (after encoding)<br>
             <b>Train/Test Split:</b> 85% / 15%<br><br>
